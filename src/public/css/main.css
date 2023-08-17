@@ -1,0 +1,108 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    color: #f3c138;
+    background:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0,0,0,0.8)), url(/img/coffee.png) repeat ;
+}
+
+
+/*style nav*/
+.navbar.navbar-expand-lg.bg-dark.navbar-dark {
+    background-color: #f8f7bb; /* Color de fondo de la barra de navegación */
+  }
+
+  .navbar.navbar-expand-lg.bg-dark.navbar-dark a.navbar-brand {
+    color: #f0f4f6; /* Color del texto del enlace en la barra de navegación */
+    font-weight: bold;
+  }
+
+  .navbar.navbar-expand-lg.bg-dark.navbar-dark a.navbar-brand:hover {
+    color: #c9925f; /* Color del texto del enlace en el hover */
+  }
+
+  .navbar.navbar-expand-lg.bg-dark.navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* Color del texto de los enlaces en la barra de navegación */
+  }
+
+  .navbar.navbar-expand-lg.bg-dark.navbar-dark .navbar-nav .nav-link:hover {
+    color: #79641a; /* Color del texto de los enlaces en el hover */
+  }
+
+/*footer*/
+  .social-icons .social-icon  {
+    margin: 0 10px;
+    font-size: 24px; 
+    color: hsl(47, 92%, 33%);
+}
+
+a{
+    color: hsl(47, 46%, 35%);
+}
+
+.services-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/*imagenes de portafolio*/
+.project {
+  margin: 20px auto;
+  max-width: 400px;
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.caption {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+  text-align: center;
+  opacity: 0; 
+  transition: opacity 0.3s;
+}
+.project:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.project:hover .caption {
+  opacity: 1; 
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+/*recuerd*/
+
+
+
+/*mision y vision*/
+
+.imagen {
+background-image: url("/img/cafe.jpg"); 
+background-size: cover; 
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+}
+
+/*parrafo tamaño*/
+.p {
+  font-size: 100px; 
+}
+
+/*letra tamaño*/
+h1 {
+  color: hsl(71, 96%, 71%); /* Color en formato hexadecimal */
+}
+  
+  
